@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 <p> <span style="font-size: 24px;">1985</span> Born.</p>
