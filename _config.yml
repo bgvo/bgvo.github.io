@@ -23,7 +23,7 @@ title: Rails and beyond
 logo: /assets/logo.svg
 email: hi@bgvo.io
 description: >- # this means to ignore newlines until "baseurl:"
-  This section was in the initial template and I thought it was a good idea to keep it. Right now I'm not sure what to put here. But, I'll figure it out.
+  I'm Borja, a software engineer from Spain. I write about Ruby, Rails, and other things I find interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: borjagvo
