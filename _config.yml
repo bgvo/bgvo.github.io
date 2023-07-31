@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+base_url: "https://bgvo.io"
 title: Rails and beyond
 logo: /assets/logo.svg
 email: hi@bgvo.io

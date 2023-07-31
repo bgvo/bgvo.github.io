@@ -1,7 +1,42 @@
-body {color: #242424;}
+@import "code_formatter";
+
+body {color: #2d2d2d;}
+a {color: #047dff}
+a:visited {color: #047dff}
 h2 {color: #606060;}
-h3 a {color: #a08fe9;}
-h3 a:visited {color: #908d9c;}
+// h3 a {color: #434343;}
+h3 a, h3 a:visited {color: #777777;}
+
+.post-list li {
+  border: 1px solid;
+  padding: 6px 0 0 13px;
+  box-shadow: 2px 2px 1px 1px black;
+  background-color: #ffffe3;
+}
+
+.username {
+  color: #fffcff;
+  background-color: #8d8d8d;
+  padding: 1px 4px 2px 4px;
+}
+
+.u-email {
+  color: #2b2b2b;
+}
+
+/* Define the animation */
+@keyframes text-color-animation {
+  0% { color: rgb(46, 16, 48); } /* Starting color (you can change this) */
+  25% { color: rgb(124, 17, 127); } /* Color at 3 seconds */
+  50% { color: rgb(21, 21, 21); } /* Color at 6 seconds */
+  75% { color: rgb(1, 1, 83); } /* Color at 9 seconds */
+  100% { color: rgb(190, 1, 178); } /* Ending color (same as starting color to complete the loop) */
+}
+
+/* Apply the animation to the text */
+.animated-text {
+  animation: text-color-animation 12s linear infinite; /* 12s for 4 colors at 3 seconds each */
+}
 
 .site-title img {
   width: 222px !important;
@@ -9,7 +44,19 @@ h3 a:visited {color: #908d9c;}
   border-radius: 0px !important;
   margin-top: 4px !important;
   margin-left: 0px !important;
-  // background-image: url("/assets/randomsgv.svg");
+}
+
+.social-svg-icon {
+  width: 16px !important;
+  height: 16px !important;
+  padding-right: 5px;
+  vertical-align: text-top;
+  // To convert from hex to filter: https://codepen.io/sosuke/pen/Pjoqqp
+  filter: invert(64%) sepia(9%) saturate(15%) hue-rotate(69deg) brightness(86%) contrast(85%);
+}
+
+.cta {
+  background-color: #ffbce1;
 }
 
 // a{color: #0081ff !important;}

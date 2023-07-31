@@ -1,0 +1,18 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "untitled",
+      "pattern": "Untitled-1"
+    },
+    {
+      "language": "markdown",
+      "scheme": "untitled",
+      "pattern": "Untitled-1"
+    },
+    {
+      "language": "markdown",
+      "scheme": "untitled"
+    }
+  ]
+}
