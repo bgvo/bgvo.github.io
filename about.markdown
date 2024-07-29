@@ -38,4 +38,4 @@ permalink: /about/
 
 
 <p style="margin-bottom: 0px;"> <span style="font-size: 24px;">20{{ site.time | date: '%y' }}</span> I'm <strong>{{ age_years }} </strong> now.</p>
-<p style="padding-left: 30px;">Freelancing since then while doing projects on the side. Now <a href="http://twly.io">twly.io</a> and <a href="https://distance-3e5ce3957ab8.herokuapp.com/">Address Matrix Distance</a></p>
+<p style="padding-left: 30px;">Working as consultant/part-time senior engineer since then while doing projects on the side. Now <a href="https://srefs.co">srefs.co</a>.
